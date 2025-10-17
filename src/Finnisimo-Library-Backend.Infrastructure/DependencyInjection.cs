@@ -1,13 +1,10 @@
-using StackExchange.Redis;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Finnisimo_Library_Backend.Domain.Abstractions;
 using Finnisimo_Library_Backend.Application.Services.Clock;
-using Finnisimo_Library_Backend.Application.Services.Redis;
 using Finnisimo_Library_Backend.Application.Services.Email;
 using Finnisimo_Library_Backend.Infrastructure.Persistence;
-using Finnisimo_Library_Backend.Infrastructure.Services.Redis;
 using Finnisimo_Library_Backend.Infrastructure.Services.Clock;
 using Finnisimo_Library_Backend.Infrastructure.Services.Email;
 using Finnisimo_Library_Backend.Domain.Entities.Users.Repositories;
@@ -29,18 +26,6 @@ public static class DependencyInjection
   AddInfrastructure(this IServiceCollection services,
                     IConfiguration configuration)
   {
-
-    var redisConnectionString =
-        configuration.GetConnectionString("Redis:ConnectionString") ??
-        "localhost:6379";
-
-    if (!string.IsNullOrEmpty(redisConnectionString))
-    {
-      services.AddSingleton<IConnectionMultiplexer>(
-          ConnectionMultiplexer.Connect(redisConnectionString));
-
-      services.AddTransient<IRedisService, RedisService>();
-    }
 
     services.Configure<EmailSettings>(
         configuration.GetSection("EmailSettings"));
