@@ -5,6 +5,7 @@ using Finnisimo_Library_Backend.Application.Queries.Books.GetAllGenres;
 using Finnisimo_Library_Backend.Application.Queries.Books.GetBookById;
 using Finnisimo_Library_Backend.WebApi.Controllers.v1.Book.Request;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Finnisimo_Library_Backend.WebApi.Controllers.v1.Book;
@@ -28,6 +29,7 @@ public class BookController(IMediator mediator) : ApiController
     return result.Match(message => StatusCode(201, new { message }), Problem);
   }
 
+  [AllowAnonymous]
   [HttpGet]
   public async Task<IActionResult> GetAllBooks(
       [FromQuery] int page = 1, [FromQuery] int pageSize = 10,
@@ -45,6 +47,7 @@ public class BookController(IMediator mediator) : ApiController
     return result.Match(Ok, Problem);
   }
 
+  [AllowAnonymous]
   [HttpGet("{id:guid}")]
   public async Task<IActionResult> GetBookById(Guid id)
   {
@@ -54,6 +57,7 @@ public class BookController(IMediator mediator) : ApiController
     return result.Match(Ok, Problem);
   }
 
+  [AllowAnonymous]
   [HttpGet("genres")]
   public async Task<IActionResult> GetAllGenres()
   {
@@ -63,6 +67,7 @@ public class BookController(IMediator mediator) : ApiController
     return result.Match(Ok, Problem);
   }
 
+  [AllowAnonymous]
   [HttpGet("authors")]
   public async Task<IActionResult> GetAllAuthors()
   {

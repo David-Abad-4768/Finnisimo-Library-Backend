@@ -21,6 +21,7 @@ public class UserController(IMediator mediator) : ApiController
 {
   private readonly ISender _mediator = mediator;
 
+  [AllowAnonymous]
   [HttpPost]
   public async Task<IActionResult>
   CreateUser([FromBody] CreateUserRequest request)
@@ -34,6 +35,7 @@ public class UserController(IMediator mediator) : ApiController
     return result.Match(message => StatusCode(201, new { message }), Problem);
   }
 
+  [AllowAnonymous]
   [HttpPost("login")]
   public async Task<IActionResult>
   LoginUser([FromBody] LoginUserRequest request)
