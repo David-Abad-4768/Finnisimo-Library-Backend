@@ -1,0 +1,16 @@
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/bin/Release/net9.0/Finnisimo-Library-Backend.Application.deps.json
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/bin/Release/net9.0/Finnisimo-Library-Backend.Application.dll
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/bin/Release/net9.0/Finnisimo-Library-Backend.Application.pdb
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/bin/Release/net9.0/Finnisimo-Library-Backend.Domain.dll
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/bin/Release/net9.0/Finnisimo-Library-Backend.Domain.pdb
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/Finnisimo-Library-Backend.Application.csproj.AssemblyReference.cache
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/Finnisimo-Library-Backend.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/Finnisimo-Library-Backend.Application.AssemblyInfoInputs.cache
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/Finnisimo-Library-Backend.Application.AssemblyInfo.cs
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/Finnisimo-Library-Backend.Application.csproj.CoreCompileInputs.cache
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/Finnisimo-Library-Backend.Application.sourcelink.json
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/Finnisim.FF1DB8C0.Up2Date
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/Finnisimo-Library-Backend.Application.dll
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/refint/Finnisimo-Library-Backend.Application.dll
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/Finnisimo-Library-Backend.Application.pdb
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Application/obj/Release/net9.0/ref/Finnisimo-Library-Backend.Application.dll

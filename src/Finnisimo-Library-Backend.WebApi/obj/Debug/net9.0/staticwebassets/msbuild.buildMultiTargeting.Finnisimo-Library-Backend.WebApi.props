@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Finnisimo-Library-Backend.WebApi.props" />
+</Project>

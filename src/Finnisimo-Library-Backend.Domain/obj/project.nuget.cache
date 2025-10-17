@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ncQ/ZfiNst8=",
+  "success": true,
+  "projectFilePath": "/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/Finnisimo-Library-Backend.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/finnisimo/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/finnisimo/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

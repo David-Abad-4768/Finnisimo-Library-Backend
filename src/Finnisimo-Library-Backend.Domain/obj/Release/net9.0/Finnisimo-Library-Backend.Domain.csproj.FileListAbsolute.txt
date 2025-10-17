@@ -1,0 +1,13 @@
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/bin/Release/net9.0/Finnisimo-Library-Backend.Domain.deps.json
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/bin/Release/net9.0/Finnisimo-Library-Backend.Domain.dll
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/bin/Release/net9.0/Finnisimo-Library-Backend.Domain.pdb
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/Finnisimo-Library-Backend.Domain.csproj.AssemblyReference.cache
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/Finnisimo-Library-Backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/Finnisimo-Library-Backend.Domain.AssemblyInfoInputs.cache
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/Finnisimo-Library-Backend.Domain.AssemblyInfo.cs
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/Finnisimo-Library-Backend.Domain.csproj.CoreCompileInputs.cache
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/Finnisimo-Library-Backend.Domain.sourcelink.json
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/Finnisimo-Library-Backend.Domain.dll
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/refint/Finnisimo-Library-Backend.Domain.dll
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/Finnisimo-Library-Backend.Domain.pdb
+/home/finnisimo/Desktop/School/webDevelopment/capstone-web/Finnisimo-Library-Backend/src/Finnisimo-Library-Backend.Domain/obj/Release/net9.0/ref/Finnisimo-Library-Backend.Domain.dll
