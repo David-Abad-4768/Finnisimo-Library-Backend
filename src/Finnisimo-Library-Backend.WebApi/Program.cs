@@ -55,9 +55,6 @@ app.UseRouting();
 
 app.UseConfiguredCors();
 
-app.UseAuthentication();
-app.UseAuthorization();
-
 app.MapHub<NotificationHub>("/notificationHub");
 app.MapControllers();
 
