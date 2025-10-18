@@ -3,11 +3,13 @@ using Finnisimo_Library_Backend.Application.Abstractions.Authentication;
 using Finnisimo_Library_Backend.Application.Abstractions.Gateways;
 using Finnisimo_Library_Backend.Infrastructure;
 using Finnisimo_Library_Backend.Infrastructure.Authentication;
+using Finnisimo_Library_Backend.Infrastructure.Persistence;
 using Finnisimo_Library_Backend.WebApi.Extensions;
 using Finnisimo_Library_Backend.WebApi.Gateways;
 using Finnisimo_Library_Backend.WebApi.Hubs;
 using Finnisimo_Library_Backend.WebApi.OptionSetup.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -34,6 +36,13 @@ builder.Services.AddSignalR();
 builder.Services.AddScoped<INotificationGateway, SignalRNotificationGateway>();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+  var dbContext =
+      scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+  dbContext.Database.Migrate();
+}
 
 if (app.Environment.IsDevelopment())
 {
