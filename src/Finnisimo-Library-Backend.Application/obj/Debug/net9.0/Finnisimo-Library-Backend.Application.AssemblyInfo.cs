@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Finnisimo-Library-Backend.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f39d540a67d67b8710052099f5dfac1eba9bf2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eadc6a44728da3eb552765413ec6c31561e95ee1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Finnisimo-Library-Backend.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Finnisimo-Library-Backend.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
