@@ -53,6 +53,9 @@ app.UseCustomExceptionHandler();
 
 app.UseRouting();
 
+app.UseAuthentication();
+app.UseAuthorization();
+
 app.UseConfiguredCors();
 
 app.MapHub<NotificationHub>("/notificationHub");
