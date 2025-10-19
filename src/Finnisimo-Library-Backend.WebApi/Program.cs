@@ -1,3 +1,4 @@
+using Azure.Identity;
 using Finnisimo_Library_Backend.Application;
 using Finnisimo_Library_Backend.Application.Abstractions.Authentication;
 using Finnisimo_Library_Backend.Application.Abstractions.Gateways;
@@ -13,6 +14,22 @@ using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+if (!builder.Environment.IsDevelopment())
+{
+  string? keyVaultName = builder.Configuration["AzureKeyVaultName"];
+
+  if (string.IsNullOrEmpty(keyVaultName))
+  {
+    throw new InvalidOperationException(
+        "AzureKeyVaultName no está configurado en appsettings.json.");
+  }
+
+  var keyVaultUri = new Uri($"https://{keyVaultName}.vault.azure.net/");
+
+  builder.Configuration.AddAzureKeyVault(keyVaultUri,
+                                         new DefaultAzureCredential());
+}
 
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
